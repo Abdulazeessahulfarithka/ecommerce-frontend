@@ -1,0 +1,36 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;        
+    min-height: 40vh;        
+    background-color: #f0f0f0; 
+  }
+  
+  .content-box {
+    display: flex;             
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;       
+    border: 3px solid black;
+    border-radius: 10px;      
+    padding: 20px;            
+    background-color: white;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 1000px;             
+  }
+  
+  .shop-button {
+    padding: 10px 20px;        
+    margin-top: 20px;          
+    background-color:black; 
+    color: white;             
+    border: none;              /* Remove border */
+    border-radius: 5px;      
+    cursor: pointer;           /* Pointer cursor on hover */
+  }
+  
+  .shop-button:hover {
+    background-color: black; /* Darker color on hover */
+  }
+  
