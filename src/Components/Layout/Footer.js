@@ -41,10 +41,10 @@ const Footer = () => {
         </Link>
         |
         <Link to="/policy" className="nav-link text-white">
-          Privacy Policy
+          Privacy | Policy
         </Link>
       </p>
-      <h6 className="text-center">&copy; 2023 Snapdeal</h6>
+      <h6 className="text-center">&copy; 2024 Snaps</h6>
     </div>
   );
 };
